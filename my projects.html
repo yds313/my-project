@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <div class="homepage ">
+            <div>
+                <div class="text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="image" />
+                    <h1 class="heading">My projects</h1>
+                    <p class="paragraph">these are my few static websites which created by using HTML,
+                        CSS,
+                        Javascript.0</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="image1" onclick="display('sectiontechnology')" />
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="image1" onclick="display('sectiondiwali')" />
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="image1" onclick="display('sectionfood')" />
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="image1" onclick="display('sectionnews')" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiontechnology">
+
+
+        <div class="technology d-flex flex-column justify-content-end">
+            <div class="technology-description text-center">
+                <h1 class="heading">Advanced Technologies</h1>
+                <p class="paragraph">as per the technology we choose everything based on our requirement.after using the equipment if we like it.we buy some more</p>
+                <button class="btn btn-secondary">learn more</button>
+                <button class="btn btn-primary" onclick="display('sectionhomepage')">back</button>
+            </div>
+
+        </div>
+    </div>
+    <div id="sectiondiwali">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">Celebrate Diwali with your friends </h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+                <div class="diwali-card-item"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+                <div class="diwali-card-item"><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionhomepage')">back</button>
+        </div>
+    </div>
+    <div id="sectionfood">
+        <div class="meals d-flex flex-column justify-content-end">
+            <div class="meals-card text-center">
+                <h1 class="heading1">Happy Meals</h1>
+                <p class="paragraph1">Discover best meals available hotel in the world.i hope that place is here</p>
+                <button class="btn btn-light">book now</button>
+                <button class="btn btn-primary" onclick="display('sectionhomepage')">back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionnews">
+        <div class="NEWS d-flex flex-column justify-content-end">
+            <div class="news-card text-center">
+                <h1 class="heading2">All educational institutes of Assam is going to be</h1>
+                <p class="paragraph2"> in the news of today we have observed that one of the best student of assam college student cleared interview of google</p>
+                <button class="btn btn-light">read more</button>
+                <button class="btn btn-primary" onclick="display('sectionhomepage')">back</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image {
+    height: 240px;
+    width: 240px;
+}
+
+.image1 {
+    margin: 5px;
+    height: 240px;
+    width: 240px;
+}
+
+.heading {
+    font-size: 25px;
+    color: #183b56;
+    font-family: "bree serif";
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #616e7c;
+    font-family: "bree serif";
+}
+
+.technology {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png");
+    height: 70vh;
+    background-size: cover;
+
+}
+
+.technology-description {
+    padding: 10px;
+    margin: 2px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.heading {
+    font-size: 18px;
+    color: #183b56;
+    font-family: "bree serif";
+}
+
+.paragraph {
+    font-size: 14px;
+    color: #616e7c;
+    font-family: "bree serif";
+}
+
+.diwali-top-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 30vh;
+    background-size: cover;
+}
+
+.diwali-top-section-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 200px;
+    padding: 20px;
+}
+
+.diwali-bottom-section {
+    text-align: center;
+    background-color: #e6f6ff;
+    padding: 15px;
+}
+
+.diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.diwali-card-image {
+    height: 64px;
+    width: 64px;
+}
+
+.diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.meals {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png");
+    height: 70vh;
+    background-size: cover;
+    margin: 10px;
+
+
+
+}
+
+.NEWS {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.meals-card {
+    border-radius: 16px;
+    background-color: white;
+    height: 10vh;
+}
+
+.news-card {
+    border-radius: 16px;
+    background-color: white;
+
+}
+
+.heading2 {
+    font-size: 18px;
+    color: #183b56;
+    font-family: "bree serif";
+}
+
+.paragraph2 {
+    font-size: 14px;
+    color: #616e7c;
+    font-family: "bree serif";
+    </style>
+</body>
+
+</html>
